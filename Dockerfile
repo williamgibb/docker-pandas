@@ -1,6 +1,6 @@
-FROM python:3.5
+FROM python:3.4.5
 
-MAINTAINER Julien Maupetit <julien@tailordev.fr>
+MAINTAINER William Gibb <william.gibb@gmail.com>
 
 ENV PYTHONUNBUFFERED 1
 
