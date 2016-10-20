@@ -6,7 +6,7 @@ A base docker image for your scientific data analysis projects.
 
 Based on the Docker official Python 3.4 image, this image provides:
 
-* [scipy](http://www.scipy.org/)
+* [numpy](http://www.numpy.org/)
 * [pandas](http://pandas.pydata.org/)
 * psycopg2
 * lxml
