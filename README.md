@@ -6,9 +6,10 @@ A base docker image for your scientific data analysis projects.
 
 Based on the Docker official Python 3.4 image, this image provides:
 
-* [numpy](http://www.numpy.org/)
 * [scipy](http://www.scipy.org/)
 * [pandas](http://pandas.pydata.org/)
+* psycopg2
+* lxml
 
 ## How can I and why should I use this image?
 
@@ -20,4 +21,4 @@ Let's say you need to develop a python web app with `pandas` as a dependency. Ev
 
 To do so, simply base your `Dockerfile` on it with:
 
-    FROM tailordev/pandas
+    FROM williamgibb/pandas34
